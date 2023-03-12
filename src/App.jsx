@@ -18,7 +18,7 @@ function App() {
       <h1>No External UI libraries</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 2)}>
-          test is {count}
+          no counter {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
