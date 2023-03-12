@@ -17,15 +17,12 @@ function App() {
       </div>
       <h1>No External UI libraries</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 2)}>
-          count is {count}
-        </button>
+        <a href="/">Home</a>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
-Where is the conflict      </p>
+      <p className="read-the-docs">Where is the conflict </p>
     </div>
   );
 }
