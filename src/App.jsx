@@ -7,6 +7,7 @@ function App() {
 
   return (
     <div className="App">
+      <h3>Test Item</h3>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
@@ -17,11 +18,15 @@ function App() {
       </div>
       <h1>No External UI libraries</h1>
       <div className="card">
-        <a href="/">Home</a>
+        <div>New conflict</div>
+        <button onClick={() => setCount((count) => count + 2)}>
+          no counter {count}
+        </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Update <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
+      <p className="read-the-docs">Where is the conflict</p>
       <p className="read-the-docs">Where is the conflict </p>
     </div>
   );
