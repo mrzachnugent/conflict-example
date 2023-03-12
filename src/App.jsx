@@ -18,7 +18,7 @@ function App() {
       </div>
       <h1>No External UI libraries</h1>
       <div className="card">
-      <div>New conflict</div>
+        <div>New conflict</div>
         <button onClick={() => setCount((count) => count + 2)}>
           no counter {count}
         </button>
@@ -26,9 +26,8 @@ function App() {
           Update <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
-        Where is the conflict      
-        </p>
+      <p className="read-the-docs">Where is the conflict</p>
+      <p className="read-the-docs">Where is the conflict </p>
     </div>
   );
 }
