@@ -26,7 +26,9 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-Where is the conflict      </p>
+        Where is the conflict      
+        </p>
+        <div>New conflict</div>
     </div>
   );
 }
